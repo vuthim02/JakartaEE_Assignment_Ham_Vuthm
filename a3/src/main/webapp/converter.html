@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>USD To KHM Converter Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="api/converter" method="get">
+            <div class="form-group">
+                <label for="usd">Amount in US Dollar (USD)</label>
+                <input type="text" id="usd" name="usd" placeholder="e.g., 23.9" required>
+            </div>
+            <button type="submit">Convert Currency</button>
+        </form>
+    </div>
+</body>
+</html>

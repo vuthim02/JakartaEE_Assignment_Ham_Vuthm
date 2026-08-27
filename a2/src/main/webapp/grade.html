@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Grade Calculator System</title>
+</head>
+
+<body>
+<h2>Calculate Student Grade and Letter Grade</h2>
+
+<form action="CalculateGrade" method="POST">
+  Student Name:
+  <input type="text" name="studentName" required>
+  <br><br>
+
+  Total Score (0 - 100):
+  <input type="number" name="score" min="0" max="100" required>
+  <br><br>
+
+  <input type="submit" value="Calculate Grade">
+</form>
+</body>
+</html>
